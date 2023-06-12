@@ -6,7 +6,7 @@ body {
    margin: 0;
    font-family: "Open Sans", sans-serif;
    background: white;
-   background-image: url("");
+   background-image: url("houston.jpg");
    background-size: cover;
    font-size: 120%; 
 }
@@ -19,7 +19,7 @@ body {
     font-family: "Open Sans", sans-serif;
     background: white;
     opacity: 0.7;
-    background-image: url("");
+    background-image: url("houston.jpg");
     background-size: cover;
 }
 .search-bar {
