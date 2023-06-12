@@ -1,3 +1,93 @@
 body {
-    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   font-family: "Open Sans", sans-serif;
+   background: white;
+   background-image: url("");
+   background-size: cover;
+   font-size: 120%; 
 }
+.card {
+    padding: 3em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 320px;
+    margin: 1em;
+    font-family: "Open Sans", sans-serif;
+    background: white;
+    opacity: 0.7;
+    background-image: url("");
+    background-size: cover;
+}
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+  }
+  button {
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0.5em;
+    height: 2.5em;
+    width: 2.5em;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  button:hover {
+    background-color: rgb(165, 231, 206);
+  }
+  .city {
+    font-size: 40px;
+  }
+  .temp {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  .humidity {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  .wind {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  
